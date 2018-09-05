@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: ""    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "Center for Quantitative Medicine"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Center for Quantitative Medicine" 
 address: "Suite 3080, 195 Farmington Ave, Farmington, Connecticut"
 country: "us"
 language: "en"
@@ -14,7 +14,7 @@ instructor: ["Sandeep Namburi"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: 49893598095
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
