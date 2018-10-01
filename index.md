@@ -10,8 +10,8 @@ humandate: "Oct 15-16, 2018"
 humantime: "9:00 am - 4:30 pm"
 startdate: 2018-10-15
 enddate: 2018-10-16
-instructor: ["Sandeep Namburi"] 
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Sandeep Namburi", "Anne Deslattes Mays"]
+helper: ["Sue McClatchy"]
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 49893598095
@@ -208,13 +208,48 @@ eventbrite: 49893598095
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
+<div class="row">
+<div class="col-md-6">
+<h3>Monday, Oct 15</h3>
+<table class="table table-striped">
+<tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/">Workshop Overview</a></td> </tr>
+<tr> <td>09:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/">Introduction to R and RStudio</a></td> </tr>
+<tr> <td>10:25</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/02-project-intro/">Project Management With RStudio</a></td> </tr>
+<tr> <td>10:45</td>  <td>Coffee</td> </tr>
+<tr> <td>11:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/">Seeking Help</a></td> </tr>
+<tr> <td>11:20</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1/">Data Structures</a></td> </tr>
+<tr> <td>12:30</td>  <td>Lunch break</td> </tr>
+<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2/">Exploring Data Frames</a></td> </tr>
+<tr> <td>14:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/06-data-subsetting/">Subsetting Data</a></td> </tr>
+<tr> <td>15:15</td>  <td>Coffee</td> </tr>
+<tr> <td>15:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/07-control-flow/">Control Flow</a></td> </tr>
+<tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
+<tr> <td>16:35</td>  <td>End</td> </tr>
+</table>
+</div>
+<div class="col-md-6">
+<h3>Tuesday, Oct 16</h3>
+<table class="table table-striped">
+<tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/08-plot-ggplot2/">Creating Publication-Quality Graphics</a></td> </tr>
+<tr> <td>10:05</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/09-vectorization/">Vectorization</a></td> </tr>
+<tr> <td>10:05</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/10-functions/">Functions Explained</a></td> </tr>
+<tr> <td>10:45</td>  <td>Coffee</td> </tr>
+<tr> <td>11:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/10-functions/">Functions Explained (continued)</a></td> </tr>
+<tr> <td>11:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/11-writing-data/">Writing Data</a></td> </tr>
+<tr> <td>12:05</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr</a></td> </tr>
+<tr> <td>12:30</td>  <td>Lunch break</td> </tr>
+<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr (continued)</a></td> </tr>
+<tr> <td>14:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/14-tidyr/">Dataframe Manipulation with tidyr</a></td> </tr>
+<tr> <td>14:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr</a></td> </tr>
+<tr> <td>15:15</td>  <td>Coffee</td> </tr>
+<tr> <td>15:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr (continued)</a></td> </tr>
+<tr> <td>15:45</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/16-wrap-up/">Writing Good Software</a></td> </tr>
+<tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+<tr> <td>16:05</td>  <td>End</td> </tr>
+</table>
+</div>
+</div>
+
 
 {% comment %}
   Collaborative Notes
@@ -252,15 +287,19 @@ eventbrite: 49893598095
   'tools/check' as well.
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
-
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
-
+<table class="table table-striped">
+<div class="col-md-6">
+<h3 id="syllabus-r">Programming in R</h3>
+<ul>
+<li>Working with vectors and data frames</li>
+<li>Reading and plotting data</li>
+<li>Creating and using functions</li>
+<li>Loops and conditionals</li>
+<li>Using R from the command line</li>
+<li><a href="{{site.swc_pages}}/r-novice-inflammation/reference/">Reference...</a></li>
+</ul>
+</div>
+</table>
 <hr/>
 
 {% comment %}
