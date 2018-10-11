@@ -10,7 +10,7 @@ humandate: "Oct 15-16, 2018"
 humantime: "9:00 am - 4:30 pm"
 startdate: 2018-10-15
 enddate: 2018-10-16
-instructor: ["Sue McClatchy", "Dave Mellert, "Diogo Troggian Veiga", "Sandeep Namburi", "Anne Deslattes Mays"]
+instructor: ["Dave Mellert", "Diogo Troggian Veiga", "Anne Deslattes Mays", "Sue McClatchy", "Sandeep Namburi"]
 helper: ["Neil Kindlon"]
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes: https://pad.carpentries.org/2018-10-15-r-ct
