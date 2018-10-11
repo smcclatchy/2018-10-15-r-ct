@@ -10,10 +10,10 @@ humandate: "Oct 15-16, 2018"
 humantime: "9:00 am - 4:30 pm"
 startdate: 2018-10-15
 enddate: 2018-10-16
-instructor: ["Sandeep Namburi", "Anne Deslattes Mays"]
-helper: ["Sue McClatchy"]
+instructor: ["Sue McClatchy", "Dave Mellert, "Diogo Troggian Veiga", "Sandeep Namburi", "Anne Deslattes Mays"]
+helper: ["Neil Kindlon"]
 email: ["susan.mcclatchy@jax.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://pad.carpentries.org/2018-10-15-r-ct
 eventbrite: 49893598095
 ---
 
