@@ -1,8 +1,8 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: ""    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "Center for Quantitative Medicine" 
-address: "Suite 3080, 195 Farmington Ave, Farmington, Connecticut"
+venue: "UCHC Center for Quantitative Medicine" 
+address: "195 Farmington Ave, Farmington, Connecticut"
 country: "us"
 language: "en"
 latlng: "41.738320, -72.791260"
